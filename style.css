@@ -5,7 +5,12 @@ body {
     padding: 0 2rem;
 }
 
-label, input {
+label {
+    margin: .7rem 0 0 0;
+    display: block;
+}
+
+input {
     display: block;
 }
 

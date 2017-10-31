@@ -33,7 +33,7 @@ btnClearInputs.addEventListener("click", function(){
 function renderMovieList(){
     var movieList = "";
     for(var i=0; i < movies.length; i++){
-        movieList += "<ul><li>" + movies[i].title + "<ul><li>" + movies[i].genre + "</li><li>" + movies[i].director + "</li><li>" + movies[i].year + "</li></ul></li></ul>";
+        movieList += "<ul class=\"movies\"><li>" + movies[i].title.toUpperCase() + "<ul><li><strong>Genre: </strong>" + movies[i].genre + "</li><li class=\"alt\"><strong>Director: </strong>" + movies[i].director + "</li><li><strong>Year: </strong>" + movies[i].year + "</li></ul></li></ul>";
     }
     outputArea.innerHTML = movieList;
 };
