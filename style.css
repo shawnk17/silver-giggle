@@ -1,22 +1,66 @@
 @import url('https://fonts.googleapis.com/css?family=Rhodium+Libre');
 body {
+<<<<<<< HEAD
     background-color:rgb(181, 249, 250);
+=======
+    background-color: #CDD9C6;
+>>>>>>> d73ee1d2efb828efb5a7dd66df88680816eff287
     font-family: 'Rhodium Libre', serif;
     padding: 0 2rem;
 }
 
-.form-element {
-    margin-bottom: 1rem;
+label, input {
+    display: block;
+}
+
+button {
+    margin: 1rem 0;
 }
 
 h1 {
-    color: rgb(26, 24, 24);
+    color: #3A6875;
     text-align: center;
 }
 
 p,div {
-   
     font-size: 30px;
     padding: 12px 12px 12px 12px;  
     margin: 12px 12px 12px 12px;  
+}
+
+/* Styles for Movies List Output */
+.movies {
+    padding: 0;
+    display: block;
+    list-style-type: none;
+}
+
+.movies li {
+    margin: 0 0 10px 0;
+    padding: 5px;
+    border: 1px solid #555;
+    background: #7DA3A6;
+    font-size: 1.3rem;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+}
+
+.movies li ul {
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.movies li ul li {
+    margin: 0;
+    padding: 2px;
+    border: none;
+    list-style-type: none;
+    background: #fff;
+    font-size: .8rem;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+}
+
+.movies li ul li.alt {
+    background: #eee;
 }
