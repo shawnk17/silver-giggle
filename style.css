@@ -5,8 +5,12 @@ body {
     padding: 0 2rem;
 }
 
-.form-element {
-    margin-bottom: 1rem;
+label, input {
+    display: block;
+}
+
+button {
+    margin: 1rem 0;
 }
 
 h1 {
@@ -15,7 +19,6 @@ h1 {
 }
 
 p,div {
-   
     font-size: 30px;
     padding: 12px 12px 12px 12px;  
     margin: 12px 12px 12px 12px;  
