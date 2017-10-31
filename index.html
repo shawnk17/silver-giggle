@@ -4,14 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Customer List</title>
+    <title>Team Challenge 1 - Movie App</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <h1>Movie App</h1>
+    <section id="inputs">
+        <label id="lbl-title">Title: </label>
+        <input type="text" id="input-title">
+        <label id="lbl-genre">Genre: </label>
+        <input type="text" id="input-genre">
+        <label id="lbl-director">Director: </label>
+        <input type="text" id="input-director">
+        <label id="lbl-year">Year: </label>
+        <input type="text" id="input-year">
+        <button id="btn-add">Add Movie</button>
+        <button id="btn-clear-fields">Clear Fields</button>
+    </section>
+    <output id="output">
+        <ul class="movies">
+            <li>movies[i].title
+                <ul>
+                    <li>movies[i].genre</li>
+                    <li>movies[i].director</li>
+                    <li>movies[i].year</li>
+                </ul>
+            </li>
+        </ul>
 
-<h1>Test</h1>
-
-   <script src="js.js"></script>
+    </output>
+<script src="js.js"></script>
 </body>
 </html>
