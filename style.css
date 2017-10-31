@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Tienne');
+body {
+    background-color:rgb(61, 216, 221);
+    font-family: 'Tienne', serif;
+    padding: 0 2rem;
+}
+
+.form-element {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: rgb(26, 24, 24);
+    text-align: center;
+}
+
+p,div {
+   
+    font-size: 30px;
+    padding: 12px 12px 12px 12px;  
+    margin: 12px 12px 12px 12px;  
+}
